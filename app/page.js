@@ -2,6 +2,12 @@
 
 import Link from 'next/link'
 import { useState } from 'react'
+import dynamic from 'next/dynamic'
+
+const RetentionChart = dynamic(() => import('@/components/RetentionChart'), {
+  ssr: false,
+  loading: () => <div className="card w-full h-96 bg-white/5 rounded-xl flex items-center justify-center">Loading chart...</div>,
+})
 
 export default function Home() {
   const [scrolled, setScrolled] = useState(false)
