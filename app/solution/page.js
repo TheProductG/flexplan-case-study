@@ -74,10 +74,10 @@ const features = [
       {
         label: 'Restaurant Recommendations',
         value: 'Healthy options at restaurants you choose',
-        example: 'Eating out becomes "playing the game" not "breaking rules"',
+        example: 'Eating out becomes playing the game not breaking rules',
       },
     ],
-    why: 'Eating out and meal planning aren't in conflict. Foodies stay engaged.',
+    why: "Eating out and meal planning aren't in conflict. Foodies stay engaged.",
     solves: ['Social Friction & FOMO'],
   },
 ]

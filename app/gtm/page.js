@@ -275,7 +275,7 @@ export default function GTM() {
                     <span>Simple progress tracking</span>
                   </li>
                 </ul>
-                <p className="text-gray-400 text-sm mt-4">Goal: Viral funnel with >1.0 coefficient</p>
+                <p className="text-gray-400 text-sm mt-4">Goal: Viral funnel with 1.5+ coefficient</p>
               </div>
 
               <div>
