@@ -2,7 +2,6 @@
 
 import Link from 'next/link'
 import { useState } from 'react'
-import RetentionChart from '@/components/RetentionChart'
 
 export default function Home() {
   const [scrolled, setScrolled] = useState(false)
