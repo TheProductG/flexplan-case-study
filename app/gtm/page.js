@@ -329,45 +329,6 @@ export default function GTM() {
         </div>
       </section>
 
-      {/* Investment & Budget */}
-      <section className="section py-20">
-        <div className="container-custom">
-          <h2 className="text-4xl font-bold mb-12 gradient-text">Investment & Budget</h2>
-
-          <div className="card bg-gradient-to-r from-yellow-500/20 to-orange-500/20 border border-yellow-400/30">
-            <h3 className="text-3xl font-bold mb-8 text-yellow-400">Year 1 Budget: $2-3M</h3>
-
-            <div className="grid md:grid-cols-2 gap-8 mb-8">
-              {[
-                { category: 'Engineering (MVP)', amount: '$600K', note: '4-5 engineers, 4 months' },
-                { category: 'Product/Design', amount: '$200K', note: 'Product manager + designer' },
-                { category: 'Marketing', amount: '$800K', note: 'Performance ads + content' },
-                { category: 'Infrastructure/Ops', amount: '$200K', note: 'Hosting, tools, support' },
-                { category: 'Contingency', amount: '$300K', note: 'Buffer for unknowns' },
-              ].map((budget, idx) => (
-                <div key={idx} className="flex justify-between items-center pb-4 border-b border-white/10">
-                  <div>
-                    <p className="font-semibold text-white">{budget.category}</p>
-                    <p className="text-xs text-gray-400">{budget.note}</p>
-                  </div>
-                  <p className="text-2xl font-bold text-yellow-300">{budget.amount}</p>
-                </div>
-              ))}
-            </div>
-
-            <div className="bg-white/5 rounded-lg p-4">
-              <p className="text-sm text-gray-400 uppercase tracking-wide mb-2">Key Hires (Before Launch)</p>
-              <ul className="space-y-2 text-gray-300">
-                <li>• 1 Senior Backend Engineer (infrastructure, scaling)</li>
-                <li>• 1 Full-stack Engineer (features, performance)</li>
-                <li>• 1 Product Designer (product + marketing)</li>
-                <li>• 1 Nutritionist/Food Science consultant (health validation)</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Expected Year 1 Outcomes */}
       <section className="section py-20">
         <div className="container-custom">
